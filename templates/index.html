@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangeul Tag</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+  <div class="container-fluid d-flex align-items-center vh-100">
+    <div class="row w-100">
+      <!-- Left Image Section -->
+      <div class="col-md-6 d-flex align-items-center justify-content-center">
+        <img src="../static/startimg.jpg" alt="Statue" class="img-fluid img-title" style="max-height: 80vh;">
+      </div>
+
+      <!-- Right Content Section -->
+      <div class="col-md-6 text-end pe-5">
+        <h1 class="display-4 fw-bold text-title">Hangeul <span>Tag</span></h1>
+        <p class="fs-5">Choose the topic and level</p>
+        <div class="mt-4">
+          <div class="d-flex flex-column align-items-end gap-3">
+            <div class="topic-section">
+              <span class="topic-title">Animal</span>
+              <button class="btn btn-light btn-level">1</button>
+              <button class="btn btn-light btn-level">2</button>
+              <button class="btn btn-light btn-level">3</button>
+            </div>
+            <div class="topic-section">
+              <span class="topic-title">Food</span>
+              <button class="btn btn-light btn-level">1</button>
+              <button class="btn btn-light btn-level">2</button>
+              <button class="btn btn-light btn-level">3</button>
+            </div>
+            <div class="topic-section">
+              <span class="topic-title">Place</span>
+              <button class="btn btn-light btn-level">1</button>
+              <button class="btn btn-light btn-level">2</button>
+              <button class="btn btn-light btn-level">3</button>
+            </div>
+            <div class="topic-section">
+              <span class="topic-title">Others</span>
+              <button class="btn btn-light btn-level">1</button>
+              <button class="btn btn-light btn-level">2</button>
+              <button class="btn btn-light btn-level">3</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- How to Play Button -->
+    <button class="btn btn-info how-to-play-btn" data-bs-toggle="modal" data-bs-target="#howToPlayModal">
+     How to Play
+    </button>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="howToPlayModal" tabindex="-1" aria-labelledby="howToPlayModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="howToPlayModalLabel">How to Play</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Instructions on how to play the game go here. Provide clear and concise details for the players.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
