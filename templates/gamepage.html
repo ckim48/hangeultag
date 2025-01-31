@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+                body {
+  font-family: "Grandstander", serif;
+  font-optical-sizing: auto;
+                }
+        .container {
+            max-width: 1200px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 50px;
+        }
+        .quiz-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+                .quiz-header h1{
+                    font-size:32px;
+                }
+                                .quiz-header p{
+                    font-size:29px;
+                }
+
+        .answer-boxes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .box {
+            width: 80px;
+            height: 80px;
+            margin: 5px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+.box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+        .hint-button {
+            background-color: #ffd700;
+            border: none;
+            font-size: 22px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+.check-button,
+.next-button {
+    display: block; /* Makes the buttons take full width */
+    width: 70%;
+
+    margin: 10px 0; /* Adds space between buttons */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px 20px; /* Increase padding for better look */
+    font-size: 1rem; /* Slightly larger text */
+    text-align: center; /* Center-align the text */
+}
+                .check-button{
+                    border: none !important;
+                }
+input {
+    transition: background-color 0.3s ease;
+}
+input.correct {
+    background-color: lightgreen;
+}
+input.incorrect {
+    background-color: lightcoral;
+}
+    .check-button {
+        background-color: #555;
+        color: #fff;
+        border: none;
+        padding: 18px 24px; /* Increased padding for larger button */
+        font-size: 1.2rem; /* Slightly larger text */
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: block;
+        width: 75%; /* Slightly wider than next-button */
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .next-button {
+        background-color: #ddd;
+        color: #000;
+        border: none;
+        padding: 15px 20px; /* Smaller padding */
+        font-size: 1rem; /* Regular text size */
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: block;
+        width: 70%; /* Standard width */
+        margin: 10px auto;
+        text-align: center;
+    }
+.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures both image and caption are centered */
+}
+.quiz-image {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 20px;
+    background-color: #e1e1e1;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+.img-caption {
+    background-color: #f9f3ca;
+    font-size: 29px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 100%; /* Matches the width of the parent image */
+    max-width: 300px; /* Same as the image's max-width */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.check-button:hover {
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: #bbb;
+    color: #000;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.hint-button:hover {
+    background-color: #ffc107;
+    color: #fff;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+    </style>
+</head>
+<body>
+<div class="container mt-md-5">
+    <div class="row quiz-body mt-md-5">
+<div class="col-md-6 text-center d-flex flex-column justify-content-center align-items-center">
+    <img src="{{ image_path }}" alt="{{ korean_name }}" class="quiz-image">
+    <p class="mt-2 img-caption">{{english_name}}</p>
+</div>
+
+
+        <div class="col-md-6">
+<div class="quiz-header">
+<div>
+    <h1 class="h4">{{ category }} (Level {{ level }})</h1>
+<p class="mb-0">Question {{ question_number }} / {{ total_questions }}</p>
+</div>
+<button class="hint-button" onclick="playHintAudio()">
+    <i class="bi bi-headphones"></i> Hint
+</button>
+
+<!-- Hidden audio element -->
+<audio id="hint-audio" src="{{ audio_path }}" preload="auto"></audio>
+</div>
+
+
+            <div class="quiz-question mt-5">
+                <p class="question">{{ question }}</p>
+            </div>
+
+            <!-- Input boxes -->
+            <div class="answer-boxes mt-5">
+                <div class="d-flex flex-column align-items-center">
+                    <div class="d-flex">
+                        <div class="box"><input type="text" maxlength="1"></div>
+                        <div class="box"><input type="text" maxlength="1"></div>
+                    </div>
+                    <div class="box"><input type="text" maxlength="1"></div>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <div class="d-flex">
+                        <div class="box"><input type="text" maxlength="1"></div>
+                        <div class="box"><input type="text" maxlength="1"></div>
+                    </div>
+                    <div class="box"><input type="text" maxlength="1"></div>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <div class="d-flex">
+                        <div class="box"><input type="text" maxlength="1"></div>
+                        <div class="box"><input type="text" maxlength="1"></div>
+                    </div>
+                    <div class="box"><input type="text" maxlength="1"></div>
+                </div>
+            </div>
+
+            <div class="quiz-footer mt-5">
+                <button class="check-button">Check the Answer</button>
+                <button class="next-button mt-4">Next Question</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const inputs = document.querySelectorAll('.box input');
+
+    document.querySelector('.check-button').addEventListener('click', () => {
+        const userAnswer = Array.from(inputs).map(input => input.value.trim()).join('');
+
+        // Collecting category, level, and question number from template variables
+        const category = '{{ category }}';
+        const level = '{{ level }}';
+        const questionNumber = {{ question_number }};
+        const correctAnswer = '{{ correct_answer }}'.split(',');
+
+        fetch('/check_answer', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                category,
+                level,
+                question_number: questionNumber,
+                answer: userAnswer
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.redirect) {
+                window.location.href = data.url;
+            } else {
+                // Highlight boxes based on correctness
+                inputs.forEach((input, index) => {
+                    if (correctAnswer[index] && input.value.trim().toLowerCase() === correctAnswer[index].trim().toLowerCase()) {
+                        input.style.backgroundColor = 'lightgreen'; // Correct
+                    } else {
+                        input.style.backgroundColor = 'lightcoral'; // Incorrect
+                    }
+                });
+
+                // Update check button feedback
+                const checkButton = document.querySelector('.check-button');
+                if (data.correct) {
+                    checkButton.textContent = "Correct!";
+                    checkButton.style.backgroundColor = "green";
+                } else {
+                    checkButton.textContent = "Wrong! Try Again.";
+                    checkButton.style.backgroundColor = "red";
+                }
+
+                // Redirect to the next question after a delay
+                setTimeout(() => {
+                    window.location.href = `/game?category=${category}&level=${level}`;
+                }, 1000);
+            }
+        })
+        .catch(err => console.error('Error:', err));
+    });
+});
+</script>
+
+
+
+<script>
+function playHintAudio() {
+    var audio = document.getElementById("hint-audio");
+    if (audio) {
+        audio.play().catch(error => console.error("Audio play error:", error));
+    } else {
+        console.error("No audio file found.");
+    }
+}
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const inputs = document.querySelectorAll('.box input');
+
+    function fetchArduinoData() {
+        fetch('/data')
+        .then(response => response.json())
+        .then(data => {
+            if (data.arduino_data) {
+                let letters = data.arduino_data.split(','); // Split by comma
+
+                // Fill input boxes with letters (limit to number of boxes)
+                inputs.forEach((input, index) => {
+                    input.value = letters[index] ? letters[index] : ''; // Assign letter or empty
+                });
+            }
+        })
+        .catch(err => console.error('Error fetching Arduino data:', err));
+    }
+
+    // Fetch Arduino data every 3 seconds
+    setInterval(fetchArduinoData, 3000);
+});
+</script>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

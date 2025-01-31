@@ -1,0 +1,225 @@
+category,korean,english,level,1,2,3,4,5,6,7,8,9
+Animal,개,dog,1,ㄱ,ㅐ,,,,,,,
+Animal,새,bird,1,ㅅ,ㅐ,,,,,,,
+Animal,곰,bear,1,ㄱ,ㅗ,ㅁ,,,,,,
+Animal,뱀,snake,1,ㅂ,ㅐ,ㅁ,,,,,,
+Animal,용,dragon,1,ㅇ,ㅛ,ㅇ,,,,,,
+Animal,소,cow,1,ㅅ,,ㅗ,,,,,,
+Animal,양,sheep,1,ㅇ,ㅑ,ㅇ,,,,,,
+Animal,토끼,rabbit,1,ㅌ,,ㅗ,ㄲ,ㅣ,,,,
+Animal,기린,giraffe,1,ㄱ,ㅣ,,ㄹ,ㅣ,ㄴ,,,
+Animal,사슴,deer,1,ㅅ,ㅏ,,ㅅ,ㅡ,ㅁ,,,
+Animal,사자,lion,1,ㅅ,ㅏ,,ㅈ,ㅏ,,,,
+Animal,염소,goat,1,ㅇ,ㅕ,ㅁ,ㅅ,,ㅗ,,,
+Animal,나비,butterfly,1,ㄴ,ㅏ,,ㅂ,ㅣ,,,,
+Animal,악어,crocodile,1,ㅇ,ㅏ,ㄱ,ㅇ,ㅓ,,,,
+Animal,낙타,camel,1,ㄴ,ㅏ,ㄱ,ㅌ,ㅏ,,,,
+Animal,여우,fox,1,ㅇ,ㅕ,,ㅇ,,ㅜ,,,
+Animal,하마,hippo,1,ㅎ,ㅏ,,ㅁ,ㅏ,,,,
+Animal,오리,duck,1,ㅇ,,ㅗ,ㄹ,ㅣ,,,,
+Animal,쥐,mouse,2,ㅈ,ㅟ,,,,,,,
+Animal,돼지,pig,2,ㄷ,ㅙ,,ㅈ,ㅣ,,,,
+Animal,고래,whale,2,ㄱ,,ㅗ,ㄹ,ㅐ,,,,
+Animal,늑대,wolf,2,ㄴ,ㅡ,ㄱ,ㄷ,ㅐ,,,,
+Animal,거위,goose,2,ㄱ,ㅓ,,ㅇ,ㅟ,,,,
+Animal,코끼리,elephant,2,ㅋ,,ㅗ,ㄲ,ㅣ,,ㄹ,ㅣ,
+Animal,호랑이,tiger,2,ㅎ,,ㅗ,ㄹ,ㅏ,ㅇ,ㅇ,ㅣ,
+Animal,고양이,cat,2,ㄱ,,ㅗ,ㅇ,ㅑ,ㅇ,ㅇ,ㅣ,
+Animal,코알라,koala,2,ㅋ,,ㅗ,ㅇ,ㅏ,ㄹ,ㄹ,ㅏ,
+Animal,두더지,mole,2,ㄷ,,ㅜ,ㄷ,ㅓ,,ㅈ,ㅣ,
+Animal,부엉이,owl,2,ㅂ,,ㅜ,ㅇ,ㅓ,ㅇ,ㅇ,ㅣ,
+Animal,독수리,eagle,2,ㄷ,ㅗ,ㄱ,ㅅ,,ㅜ,ㄹ,ㅣ,
+Animal,비둘기,dove,2,ㅂ,ㅣ,,ㄷ,ㅜ,ㄹ,ㄱ,ㅣ,
+Animal,오징어,squid,2,ㅇ,,ㅗ,ㅈ,ㅣ,ㅇ,ㅇ,ㅓ,
+Animal,닭,chicken,3,ㄷ,ㅏ,ㄹㄱ,,,,,,
+Animal,표범,leopard,3,ㅍ,,ㅛ,ㅂ,ㅓ,ㅁ,,,
+Animal,펭귄,penguin,3,ㅍ,ㅔ,ㅇ,ㄱ,ㅟ,ㄴ,,,
+Animal,원숭이,monkey,3,ㅇ,ㅝ,ㄴ,ㅅ,ㅜ,ㅇ,ㅇ,ㅣ,
+Animal,사마귀,mantis,3,,,,,,,,,
+Animal,다람쥐,squirrel,3,ㄷ,ㅏ,ㄹ,ㅏ,ㅁ,ㅈ,ㅟ,,
+Animal,코뿔소,rhino,3,ㅋ,,ㅗ,ㅃ,ㅜ,ㄹ,ㅅ,,ㅗ
+Animal,캥거루,kangaroo,3,ㅋ,ㅐ,ㅇ,ㄱ,ㅓ,,ㄹ,,ㅜ
+Animal,칠면조,turkey,3,ㅊ,ㅣ,ㄹ,ㅁ,ㅕ,ㄴ,ㅈ,,ㅗ
+Animal,당나귀,donkey,3,ㄷ,ㅏ,ㅇ,ㄴ,ㅏ,,ㄱ,ㅟ,
+Animal,까마귀,crow,3,ㄲ,ㅏ,,ㅁ,ㅏ,,ㄱ,ㅟ,
+Animal,도마뱀,lizard,3,ㄷ,,ㅗ,ㅁ,ㅏ,,ㅂ,ㅐ,ㅁ
+Animal,앵무새,parrot,3,ㅇ,ㅐ,ㅇ,ㅁ,ㅜ,,ㅅ,ㅐ,
+Place,집,house,1,ㅈ,ㅣ,ㅂ,,,,,,
+Place,역,station,1,ㅇ,ㅕ,ㄱ,,,,,,
+Place,산,mountain,1,ㅅ,ㅏ,ㄴ,,,,,,
+Place,강,river,1,ㄱ,ㅏ,ㅇ,,,,,,
+Place,절,temple,1,ㅈ,ㅓ,ㄹ,,,,,,
+Place,은행,bank,1,ㅇ,ㅡ,ㄴ,ㅎ,ㅐ,ㅇ,,,
+Place,등대,lighthouse,1,ㄷ,ㅡ,ㅇ,ㄷ,ㅐ,,,,
+Place,바다,sea,1,ㅂ,ㅏ,,ㄷ,ㅏ,,,,
+Place,식당,restaurant,1,ㅅ,ㅣ,ㄱ,ㄷ,ㅏ,ㅇ,,,
+Place,항구,"harbour, port",1,ㅎ,ㅏ,ㅇ,ㄱ,,ㅜ,,,
+Place,학교,school,1,ㅎ,ㅏ,ㄱ,ㄱ,,ㅛ,,,
+Place,다리,bridge,1,ㄷ,ㅏ,,ㄹ,ㅣ,,,,
+Place,시장,market,1,ㅅ,ㅣ,,ㅈ,ㅏ,ㅇ,,,
+Place,농장,farm,1,ㄴ,ㅗ,ㅇ,ㅈ,ㅏ,ㅇ,,,
+Place,공항,airport,1,ㄱ,ㅗ,ㅇ,ㅎ,ㅏ,ㅇ,,,
+Place,공원,park,2,ㄱ,ㅗ,ㅇ,ㅇ,ㅝ,ㄴ,,,
+Place,약국,"drug store, pharmacy",2,ㅇ,ㅑ,ㄱ,ㄱ,ㅜ,ㄱ,,,
+Place,빵집,bakery,2,ㅃ,ㅏ,ㅇ,ㅈ,ㅣ,ㅂ,,,
+Place,해변,beach,2,ㅎ,ㅐ,,ㅂ,ㅕ,ㄴ,,,
+Place,폭포,waterfall,2,ㅍ,ㅗ,ㄱ,ㅍ,,ㅗ,,,
+Place,교실,classroom,2,ㄱ,,ㅛ,ㅅ,ㅣ,ㄹ,,,
+Place,운동장,school field,2,ㅇ,ㅜ,ㄴ,ㄷ,ㅗ,ㅇ,ㅈ,ㅏ,ㅇ
+Place,소방서,fire station,2,ㅅ,,ㅗ,ㅂ,ㅏ,ㅇ,ㅅ,ㅓ,
+Place,경찰서,police station,2,ㄱ,ㅕ,ㅇ,ㅊ,ㅏ,ㄹ,ㅅ,ㅓ,
+Place,주유소,gas station,2,ㅈ,,ㅜ,ㅇ,,ㅠ,ㅅ,,ㅗ
+Place,수영장,swimming pool,2,ㅅ,,ㅜ,ㅇ,ㅕ,ㅇ,ㅈ,ㅏ,ㅇ
+Place,터미널,terminal,2,ㅌ,ㅓ,,ㅁ,ㅣ,,ㄴ,ㅓ,ㄹ
+Place,주차장,car park,2,ㅈ,,ㅜ,ㅊ,ㅏ,,ㅈ,ㅏ,ㅇ
+Place,숲,forest,3,ㅅ,ㅜ,ㅍ,,,,,,
+Place,교회,church,3,ㄱ,,ㅛ,ㅎ,ㅚ,,,,
+Place,병원,hospital,3,ㅂ,ㅕ,ㅇ,ㅇ,ㅝ,ㄴ,,,
+Place,꽃집,flower shop,3,ㄲ,ㅗ,ㅊ,ㅈ,ㅣ,ㅂ,,,
+Place,편의점,convenience store,3,ㅍ,ㅕ,ㄴ,ㅇ,ㅢ,,ㅈ,ㅓ,ㅁ
+Place,세탁소,laundry,3,ㅅ,ㅔ,,ㅌ,ㅏ,ㄱ,ㅅ,,ㅗ
+Place,백화점,department store,3,ㅂ,ㅐ,ㄱ,ㅎ,ㅘ,,ㅈ,ㅓ,ㅁ
+Place,체육관,gym,3,ㅊ,ㅔ,,ㅇ,ㅠ,ㄱ,ㄱ,ㅘ,ㄴ
+Place,미술관,gallery,3,ㅁ,ㅣ,,ㅅ,ㅜ,ㄹ,ㄱ,ㅘ,ㄴ
+Place,우체국,post office,3,ㅇ,,ㅜ,ㅊ,ㅔ,,ㄱ,ㅜ,ㄱ
+Place,유치원,kindergarten,3,ㅇ,,ㅠ,ㅊ,ㅣ,,ㅇ,ㅝ,ㄴ
+Place,영화관,cinema,3,ㅇ,ㅕ,ㅇ,ㅎ,ㅘ,,ㄱ,ㅘ,ㄴ
+Place,도서관,library,3,ㄷ,,ㅗ,ㅅ,ㅓ,,ㄱ,ㅘ,ㄴ
+Place,박물관,museum,3,ㅂ,ㅏ,ㄱ,ㅁ,ㅜ,ㄹ,ㄱ,ㅘ,ㄴ
+Place,동물원,zoo,3,ㄷ,ㅗ,ㅇ,ㅁ,ㅜ,ㄹ,ㅇ,ㅝ,ㄴ
+Food,무,radish,1,ㅁ,,ㅜ,,,,,,
+Food,파,spring onion,1,ㅍ,ㅏ,,,,,,,
+Food,게,crab,1,ㄱ,ㅔ,,,,,,,
+Food,콩,bean,1,ㅋ,ㅗ,ㅇ,,,,,,
+Food,밥,rice,1,ㅂ,ㅏ,ㅂ,,,,,,
+Food,햄,ham,1,ㅎ,ㅐ,ㅁ,,,,,,
+Food,빵,bread,1,ㅃ,ㅏ,ㅇ,,,,,,
+Food,꿀,honey,1,ㄲ,ㅜ,ㄹ,,,,,,
+Food,물,water,1,ㅁ,ㅜ,ㄹ,,,,,,
+Food,차,tea,1,ㅊ,ㅏ,,,,,,,
+Food,죽,porridge,1,ㅈ,ㅜ,ㄱ,,,,,,
+Food,고추,pepper,1,ㄱ,,ㅗ,ㅊ,,ㅜ,,,
+Food,가지,eggplant,1,ㄱ,ㅏ,,ㅈ,ㅣ,,,,
+Food,오이,cucumber,1,ㅇ,,ㅗ,ㅇ,ㅣ,,,,
+Food,망고,mango,1,ㅁ,ㅏ,ㅇ,ㄱ,,ㅗ,,,
+Food,수박,watermelon,1,ㅅ,,ㅜ,ㅂ,ㅏ,ㄱ,,,
+Food,자두,plum,1,ㅈ,ㅏ,,ㄷ,,ㅜ,,,
+Food,두부,tofu,1,ㄷ,,ㅜ,ㅂ,,ㅜ,,,
+Food,감자,potato,1,ㄱ,ㅏ,ㅁ,ㅈ,ㅏ,,,,
+Food,치즈,cheese,1,ㅊ,ㅣ,,ㅈ,,ㅡ,,,
+Food,고기,meat,1,ㄱ,,ㅗ,ㄱ,ㅣ,,,,
+Food,소금,salt,1,ㅅ,,ㅗ,ㄱ,ㅡ,ㅁ,,,
+Food,후추,pepper,1,ㅎ,,ㅜ,ㅍ,,ㅜ,,,
+Food,버터,butter,1,ㅂ,ㅓ,,ㅌ,ㅓ,,,,
+Food,우유,milk,1,ㅇ,,ㅜ,ㅇ,,ㅠ,,,
+Food,커피,coffee,1,ㅋ,ㅓ,,ㅍ,ㅣ,,,,
+Food,쿠키,cookie,1,ㅋ,,ㅜ,ㅋ,ㅣ,,,,
+Food,콜라,coke,1,ㅋ,ㅗ,ㄹ,ㄹ,ㅏ,,,,
+Food,피자,pizza,1,ㅍ,ㅣ,,ㅈ,ㅏ,,,,
+Food,국수,noodles,1,ㄱ,ㅜ,ㄱ,ㅅ,,ㅜ,,,
+Food,만두,dumpling,1,ㅁ,ㅏ,ㄴ,ㄷ,,ㅜ,,,
+Food,카레,curry,2,ㅋ,ㅏ,,ㄹ,ㅔ,,,,
+Food,딸기,strawberry,2,ㄸ,ㅏ,ㄹ,ㄱ,ㅣ,,,,
+Food,사과,apple,2,ㅅ,ㅏ,,ㄱ,ㅘ,,,,
+Food,호박,pumpkin,2,ㅎ,,ㅗ,ㅂ,ㅏ,ㄱ,,,
+Food,당근,carrot,2,ㄷ,ㅏ,ㅇ,ㄱ,ㅡ,ㄴ,,,
+Food,양파,onion,2,ㅇ,ㅑ,ㅇ,ㅍ,ㅏ,,,,
+Food,마늘,garlic,2,ㅁ,ㅏ,,ㄴ,ㅡ,ㄹ,,,
+Food,버섯,mushroom,2,ㅂ,ㅓ,,ㅅ,ㅓ,ㅅ,,,
+Food,새우,shrimp,2,ㅅ,ㅐ,,ㅇ,,ㅜ,,,
+Food,생선,fish,2,ㅅ,ㅐ,ㅇ,ㅅ,ㅓ,ㄴ,,,
+Food,토마토,tomato,2,ㅌ,,ㅗ,ㅁ,ㅏ,,ㅌ,,ㅗ
+Food,햄버거,hamburger,2,ㅎ,ㅐ,ㅁ,ㅂ,ㅓ,,ㄱ,ㅓ,
+Food,고구마,sweet potato,2,ㄱ,,ㅗ,ㄱ,,ㅜ,ㅁ,ㅏ,
+Food,아몬드,almond,2,ㅇ,ㅏ,,ㅁ,ㅗ,ㄴ,ㄷ,,ㅡ
+Food,옥수수,corn,2,ㅇ,ㅗ,ㄱ,ㅅ,,ㅜ,ㅅ,,ㅜ
+Food,시금치,spinach,2,ㅅ,ㅣ,,ㄱ,ㅡ,ㅁ,ㅊ,ㅣ,
+Food,미트볼,meatball,2,ㅁ,ㅣ,,ㅌ,,ㅡ,ㅂ,ㅗ,ㄹ
+Food,파스타,pasta,2,ㅍ,ㅏ,,ㅅ,,ㅡ,ㅌ,ㅏ,
+Food,인삼,ginseng,2,ㅇ,ㅣ,ㄴ,ㅅ,ㅏ,ㅁ,,,
+Food,고추장,red pepper paste,2,ㄱ,,ㅗ,ㅊ,,ㅜ,ㅈ,ㅏ,ㅇ
+Food,오렌지,orange,2,ㅇ,,ㅗ,ㄹ,ㅔ,ㄴ,ㅈ,ㅣ,
+Food,오징어,squid,2,ㅇ,,ㅗ,ㅈ,ㅣ,ㅇ,ㅇ,ㅓ,
+Food,비빔밥,bibimbap,2,ㅂ,ㅣ,,ㅂ,ㅣ,ㅁ,ㅂ,ㅏ,ㅂ
+Food,과자,snack,3,ㄱ,ㅘ,,ㅈ,ㅏ,,,,
+Food,땅콩,peanut,3,ㄸ,ㅏ,ㅇ,ㅋ,ㅗ,ㅇ,,,
+Food,달걀,egg,3,ㄷ,ㅏ,ㄹ,ㄱ,ㅑ,ㄹ,,,
+Food,팝콘,popcorn,3,ㅍ,ㅏ,ㅂ,ㅋ,ㅗ,ㄴ,,,
+Food,초밥,sushi,3,ㅊ,,ㅗ,ㅂ,ㅏ,ㅂ,,,
+Food,케이크,cake,3,ㅋ,ㅔ,,ㅇ,ㅣ,,ㅋ,,ㅡ
+Food,초콜렛,chocolate,3,ㅊ,,ㅗ,ㅋ,ㅗ,ㄹ,ㄹ,ㅔ,ㅅ
+Food,샐러드,salad,3,ㅅ,ㅐ,ㄹ,ㄹ,ㅓ,,ㄷ,,ㅡ
+Food,해산물,seafood,3,ㅎ,ㅐ,,ㅅ,ㅏ,ㄴ,ㅁ,ㅜ,ㄹ
+Food,시리얼,cereal,3,ㅅ,ㅣ,,ㄹ,ㅣ,,ㅇ,ㅓ,ㄹ
+Food,밀가루,flour,3,ㅁ,ㅣ,ㄹ,ㄱ,ㅏ,,ㄹ,,ㅜ
+Food,요거트,yogurt,3,ㅇ,,ㅛ,ㄱ,ㅓ,,ㅌ,,ㅡ
+Food,바게트,baguette,3,ㅂ,ㅏ,,ㄱ,ㅔ,,ㅌ,,ㅡ
+Food,떡꼬치,tteok-ggo-chi,3,ㄸ,ㅓ,ㄱ,ㄲ,,ㅗ,ㅊ,ㅣ,
+Food,삼계탕,sam-gye-tang,3,ㅅ,ㅏ,ㅁ,ㄱ,ㅖ,,ㅌ,ㅏ,ㅇ
+Food,삼겹살,sam-gyeop-sal,3,ㅅ,ㅏ,ㅁ,ㄱ,ㅕ,ㅂ,ㅅ,ㅏ,ㄹ
+Food,떡볶이,tteok-bo-kki,3,ㄸ,ㅓ,ㄱ,ㅂ,ㅗ,ㄲ,ㅇ,ㅣ,
+Food,콩나물,bean sprout,3,ㅋ,ㅗ,ㅇ,ㄴ,ㅏ,,ㅁ,ㅜ,ㄹ
+Food,볶음밥,fried rice,3,ㅂ,ㅗ,ㄲ,ㅇ,ㅡ,ㅁ,ㅂ,ㅏ,ㅂ
+Food,주먹밥,rice ball,3,ㅈ,,ㅜ,ㅁ,ㅓ,ㄱ,ㅂ,ㅏ,ㅂ
+Food,소세지,sausage,3,ㅅ,,ㅗ,ㅅ,ㅔ,,ㅈ,ㅣ,
+Other Nouns,해,sun,1,ㅎ,ㅐ,,,,,,,
+Other Nouns,별,star,1,ㅂ,ㅕ,ㄹ,,,,,,
+Other Nouns,달,moon,1,ㄷ,ㅏ,ㄹ,,,,,,
+Other Nouns,돌,stone,1,ㄷ,ㅗ,ㄹ,,,,,,
+Other Nouns,둘,two,1,ㄷ,ㅜ,ㄹ,,,,,,
+Other Nouns,책,book,1,ㅊ,ㅐ,ㄱ,,,,,,
+Other Nouns,차,car,1,ㅊ,ㅏ,,,,,,,
+Other Nouns,봄,spring,1,ㅂ,ㅗ,ㅁ,,,,,,
+Other Nouns,열,ten,1,ㅇ,ㅕ,ㄹ,,,,,,
+Other Nouns,칼,knife,1,ㅋ,ㅏ,ㄹ,,,,,,
+Other Nouns,컵,cup,1,ㅋ,ㅓ,ㅂ,,,,,,
+Other Nouns,공기,air,1,ㄱ,ㅗ,ㅇ,ㄱ,ㅣ,,,,
+Other Nouns,기차,train,1,ㄱ,ㅣ,,ㅊ,ㅏ,,,,
+Other Nouns,하나,one,1,ㅎ,ㅏ,,ㄴ,ㅏ,,,,
+Other Nouns,야구,baseball,1,ㅇ,ㅑ,,ㄱ,,ㅜ,,,
+Other Nouns,농구,basketball,1,ㄴ,ㅗ,ㅇ,ㄱ,,ㅜ,,,
+Other Nouns,축구,soccer,1,ㅊ,ㅜ,ㄱ,ㄱ,,ㅜ,,,
+Other Nouns,수영,swimming,1,ㅅ,,ㅜ,ㅇ,ㅕ,ㅇ,,,
+Other Nouns,노래,song,1,ㄴ,,ㅗ,ㄹ,ㅐ,,,,
+Other Nouns,버스,bus,1,ㅂ,ㅓ,,ㅅ,,ㅡ,,,
+Other Nouns,접시,plate,2,ㅈ,ㅓ,ㅂ,ㅅ,ㅣ,,,,
+Other Nouns,꼬리,tail,2,ㄲ,,ㅗ,ㄹ,ㅣ,,,,
+Other Nouns,날씨,weather,2,ㄴ,ㅏ,ㄹ,ㅆ,ㅣ,,,,
+Other Nouns,침대,bed,2,ㅊ,ㅣ,ㅁ,ㄷ,ㅐ,,,,
+Other Nouns,아침,"morning, breakfast",2,ㅇ,ㅏ,,ㅊ,ㅣ,ㅁ,,,
+Other Nouns,점심,"lunch, noon time",2,ㅈ,ㅓ,ㅁ,ㅅ,ㅣ,ㅁ,,,
+Other Nouns,저녁,"evening, dinner",2,ㅈ,ㅓ,,ㄴ,ㅕ,ㄱ,,,
+Other Nouns,택시,taxi,2,ㅌ,ㅐ,ㄱ,ㅅ,ㅣ,,,,
+Other Nouns,여름,summer,2,ㅇ,ㅕ,,ㄹ,ㅡ,ㅁ,,,
+Other Nouns,가을,fall,2,ㄱ,ㅏ,,ㅇ,ㅡ,ㄹ,,,
+Other Nouns,겨울,winter,2,ㄱ,ㅕ,,ㅇ,ㅜ,ㄹ,,,
+Other Nouns,신발,shoes,2,ㅅ,ㅣ,ㄴ,ㅂ,ㅏ,ㄹ,,,
+Other Nouns,이름,name,2,ㅇ,ㅣ,,ㄹ,ㅡ,ㅁ,,,
+Other Nouns,하늘,sky,2,ㅎ,ㅏ,,ㄴ,ㅡ,ㄹ,,,
+Other Nouns,비행기,airplane,2,ㅂ,ㅣ,,ㅎ,ㅐ,ㅇ,ㄱ,ㅣ,
+Other Nouns,달리기,running,2,ㄷ,ㅏ,ㄹ,ㄹ,ㅣ,,ㄱ,ㅣ,
+Other Nouns,마라톤,marathon,2,ㅁ,ㅏ,,ㄹ,ㅏ,,ㅌ,ㅗ,ㄴ
+Other Nouns,냉장고,fridge,2,ㄴ,ㅐ,ㅇ,ㅈ,ㅏ,ㅇ,ㄱ,,ㅗ
+Other Nouns,펜,pen,3,ㅍ,ㅔ,ㄴ,,,,,,
+Other Nouns,연필,pencil,3,ㅇ,ㅕ,ㄴ,ㅍ,ㅣ,ㄹ,,,
+Other Nouns,시계,"watch, clock",3,ㅅ,ㅣ,,ㅅ,ㅖ,,,,
+Other Nouns,어제,yesterday,3,ㅇ,ㅓ,,ㅈ,ㅔ,,,,
+Other Nouns,오늘,today,3,ㅇ,,ㅗ,ㄴ,ㅡ,ㄹ,,,
+Other Nouns,내일,tomorrow,3,ㄴ,ㅐ,,ㅇ,ㅣ,ㄹ,,,
+Other Nouns,모레,the day after tomorrow,3,ㅁ,,ㅗ,ㄹ,ㅔ,,,,
+Other Nouns,가위,scissors,3,ㄱ,ㅏ,,ㅇ,ㅟ,,,,
+Other Nouns,일곱,seven,3,ㅇ,ㅣ,ㄹ,ㄱ,ㅗ,ㅂ,,,
+Other Nouns,여덟,eight,3,ㅇ,ㅕ,,ㄷ,ㅓ,ㄹㅂ,,,
+Other Nouns,아홉,nine,3,ㅇ,ㅏ,,ㅎ,ㅗ,ㅂ,,,
+Other Nouns,무릎,knee,3,ㅁ,,ㅜ,ㄹ,ㅡ,ㅍ,,,
+Other Nouns,달력,calendar,3,ㄷ,ㅏ,ㄹ,ㄹ,ㅕ,ㄱ,,,
+Other Nouns,칠판,"whiteboard, blackboard",3,ㅊ,ㅣ,ㄹ,ㅍ,ㅏ,ㄴ,,,
+Other Nouns,구름,cloud,3,ㄱ,,ㅜ,ㄹ,ㅡ,ㅁ,,,
+Other Nouns,계산기,calculator,3,ㄱ,ㅖ,,ㅅ,ㅏ,ㄴ,ㄱ,ㅣ,
+Other Nouns,컴퓨터,computer,3,ㅋ,ㅓ,ㅁ,ㅍ,,ㅠ,ㅌ,ㅓ,
+Other Nouns,선생님,teacher,3,ㅅ,ㅓ,ㄴ,ㅅ,ㅐ,ㅇ,ㄴ,ㅣ,ㅁ
+Other Nouns,줄넘기,jumping rope,3,ㅈ,ㅜ,ㄹ,ㄴ,ㅓ,ㅁ,ㄱ,ㅣ,
+Other Nouns,소방관,fire fighter,3,ㅅ,,ㅗ,ㅂ,ㅏ,ㅇ,ㄱ,ㅘ,ㄴ
+Other Nouns,경찰관,policeman,3,ㄱ,ㅕ,ㅇ,ㅊ,ㅏ,ㄹ,ㄱ,ㅘ,ㄴ
+Other Nouns,화장실,restroom,3,ㅎ,ㅘ,,ㅈ,ㅏ,ㅇ,ㅅ,ㅣ,ㄹ
+Other Nouns,쓰레기,trash,3,ㅆ,,ㅡ,ㄹ,ㅔ,,ㄱ,ㅣ,
